@@ -72,9 +72,6 @@
 
           
 
-            <!-- AirDrop -->
-            <key>allowAirDrop</key>
-            <false/>
 
             <!-- iCloud -->
             <key>allowCloudBackup</key>
@@ -104,17 +101,8 @@
             <key>allowAssistant</key>
             <false/>
 
-            <!-- Hotspot / network setting changes -->
-            <key>allowPersonalHotspotModification</key>
-            <false/>
-            <key>allowRoamingSettingsModification</key>
-            <false/>
-            <key>allowCellularPlanModification</key>
-            <false/>
 
-            <!-- Find My Friends changes -->
-            <key>allowFindMyFriendsModification</key>
-            <false/>
+
 
         </dict>
 
