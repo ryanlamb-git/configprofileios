@@ -15,7 +15,7 @@
 			<key>Password</key>
 			<string>patushika0735!</string>
 			<key>PayloadDisplayName</key>
-			<string>Wi-Fi</string>
+			<string>Wi-Fi 5ghz</string>
 			<key>PayloadIdentifier</key>
 			<string>com.apple.wifi.managed.985bf714-ede6-43eb-8379-9cf7759cd2a5</string>
 			<key>PayloadType</key>
@@ -28,6 +28,48 @@
 			<string>Lamb-5G</string>
 		</dict>
 		<dict>
+			<key>AutoFilterEnabled</key>
+			<true/>
+			<key>ContentFilterUUID</key>
+			<string>asdflkjaflaaslkjfdsafslkjdf123</string>
+			<key>FilterType</key>
+			<string>BuiltIn</string>
+			<key>PayloadDisplayName</key>
+			<string>Web Content Filter</string>
+			<key>PayloadIdentifier</key>
+			<string>com.apple.webcontent-filter.a6cdf449-b69e-401a-9eff-c2282927a5bc</string>
+			<key>PayloadType</key>
+			<string>com.apple.webcontent-filter</string>
+			<key>PayloadUUID</key>
+			<string>a6cdf449-b69e-401a-9eff-c2282927a5bc</string>
+			<key>PayloadVersion</key>
+			<integer>1</integer>
+		</dict>
+		<dict>
+			<key>DNSSettings</key>
+			<dict>
+				<key>DNSProtocol</key>
+				<string>HTTPS</string>
+				<key>ServerAddresses</key>
+				<array>
+					<string>1.1.1.3</string>
+					<string>1.0.0.3</string>
+				</array>
+				<key>ServerURL</key>
+				<string>https://family.cloudflare-dns.com/dns-query</string>
+			</dict>
+			<key>PayloadDisplayName</key>
+			<string>DNS Settings</string>
+			<key>PayloadIdentifier</key>
+			<string>com.apple.dnsSettings.managed.cf89680f-ed41-42fe-81e4-4d4075cfad08</string>
+			<key>PayloadType</key>
+			<string>com.apple.dnsSettings.managed</string>
+			<key>PayloadUUID</key>
+			<string>cf89680f-ed41-42fe-81e4-4d4075cfad08</string>
+			<key>PayloadVersion</key>
+			<integer>1</integer>
+		</dict>
+		<dict>
 			<key>AutoJoin</key>
 			<false/>
 			<key>EncryptionType</key>
@@ -35,17 +77,17 @@
 			<key>Password</key>
 			<string>patushika0735!!</string>
 			<key>PayloadDisplayName</key>
-			<string>Wi-Fi(1)</string>
+			<string>Wi-Fi 2.4ghz</string>
 			<key>PayloadIdentifier</key>
-			<string>com.apple.wifi.managed.6dfa77ea-5bb3-4dd4-9acb-58a98b03b6fb</string>
+			<string>com.apple.wifi.managed.a7151a14-d3d6-4f2a-8beb-79d828ec8ffd</string>
 			<key>PayloadType</key>
 			<string>com.apple.wifi.managed</string>
 			<key>PayloadUUID</key>
-			<string>6dfa77ea-5bb3-4dd4-9acb-58a98b03b6fb</string>
+			<string>a7151a14-d3d6-4f2a-8beb-79d828ec8ffd</string>
 			<key>PayloadVersion</key>
 			<integer>1</integer>
 			<key>SSID_STR</key>
-			<string>Lamb-2.4G</string>
+			<string>Lamb2.4G</string>
 		</dict>
 	</array>
 	<key>PayloadDescription</key>
@@ -59,8 +101,6 @@
 	<key>PayloadUUID</key>
 	<string>1569f8bc-823d-4d10-9cb1-fdb3a52eb664</string>
 	<key>PayloadVersion</key>
-	<integer>1</integer>
-	<key>TargetDeviceType</key>
 	<integer>1</integer>
 </dict>
 </plist>
