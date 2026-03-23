@@ -70,9 +70,7 @@
             <key>allowScreenShot</key>
             <false/>
 
-            <!-- Touch ID for unlock -->
-            <key>allowFingerprintForUnlock</key>
-            <false/>
+          
 
             <!-- AirDrop -->
             <key>allowAirDrop</key>
