@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+    <key>PayloadDisplayName</key>
+    <string>Ryan's iPhone Profile</string>
+    <key>PayloadDescription</key>
+    <string>Auto-connects to Lamb-5G and blocks example.com</string>
+    <key>PayloadIdentifier</key>
+    <string>com.ryan.profile</string>
+    <key>PayloadType</key>
+    <string>Configuration</string>
+    <key>PayloadUUID</key>
+    <string>A1B2C3D4-E5F6-7890-ABCD-EF1234567890</string>
+    <key>PayloadVersion</key>
+    <integer>1</integer>
+    <key>PayloadContent</key>
+    <array>
+
+        <!-- Wi-Fi Payload -->
+        <dict>
+            <key>PayloadType</key>
+            <string>com.apple.wifi.managed</string>
+            <key>PayloadIdentifier</key>
+            <string>com.ryan.profile.wifi</string>
+            <key>PayloadUUID</key>
+            <string>B2C3D4E5-F6A7-8901-BCDE-F12345678901</string>
+            <key>PayloadVersion</key>
+            <integer>1</integer>
+            <key>PayloadDisplayName</key>
+            <string>Lamb-5G Wi-Fi</string>
+            <key>SSID_STR</key>
+            <string>Lamb-5G</string>
+            <key>EncryptionType</key>
+            <string>WPA3</string>
+            <key>Password</key>
+            <string>patushika0735!</string>
+            <key>AutoJoin</key>
+            <true/>
+            <key>Hidden</key>
+            <false/>
+        </dict>
+
+        <!-- Website Restriction Payload -->
+        <dict>
+            <key>PayloadType</key>
+            <string>com.apple.contentfilter</string>
+            <key>PayloadIdentifier</key>
+            <string>com.ryan.profile.contentfilter</string>
+            <key>PayloadUUID</key>
+            <string>C3D4E5F6-A7B8-9012-CDEF-123456789012</string>
+            <key>PayloadVersion</key>
+            <integer>1</integer>
+            <key>PayloadDisplayName</key>
+            <string>Website Restrictions</string>
+            <key>FilterType</key>
+            <string>BuiltIn</string>
+            <key>AutoFilterEnabled</key>
+            <false/>
+            <key>FilterBrowsers</key>
+            <true/>
+            <key>BlacklistedURLs</key>
+            <array>
+                <string>example.com</string>
+            </array>
+        </dict>
+
+    </array>
+</dict>
+</plist>
