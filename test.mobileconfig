@@ -16,10 +16,6 @@
     <integer>1</integer>
     <key>PayloadContent</key>
     <array>
-
-        <!-- ===================== -->
-        <!-- Wi-Fi (WPA2 for 5S)  -->
-        <!-- ===================== -->
         <dict>
             <key>PayloadType</key>
             <string>com.apple.wifi.managed</string>
@@ -42,11 +38,6 @@
             <key>Hidden</key>
             <false/>
         </dict>
-
-      
-            </array>
-        </dict>
-
     </array>
 </dict>
 </plist>
