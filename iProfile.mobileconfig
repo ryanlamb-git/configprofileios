@@ -2,11 +2,6 @@
 <!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
 <plist version="1.0">
 <dict>
-	<key>ConsentText</key>
-	<dict>
-		<key>default</key>
-		<string>Install </string>
-	</dict>
 	<key>PayloadContent</key>
 	<array>
 		<dict>
@@ -15,71 +10,41 @@
 			<key>Password</key>
 			<string>patushika0735!</string>
 			<key>PayloadDisplayName</key>
-			<string>Wi-Fi</string>
+			<string>Wi-Fi 5ghz</string>
 			<key>PayloadIdentifier</key>
-			<string>com.apple.wifi.managed.2dc6afba-c6fe-4280-b838-6fe93c70b855</string>
+			<string>com.apple.wifi.managed.985bf714-ede6-43eb-8379-9cf7759cd2a5</string>
 			<key>PayloadType</key>
 			<string>com.apple.wifi.managed</string>
 			<key>PayloadUUID</key>
-			<string>2dc6afba-c6fe-4280-b838-6fe93c70b855</string>
+			<string>985bf714-ede6-43eb-8379-9cf7759cd2a5</string>
 			<key>PayloadVersion</key>
 			<integer>1</integer>
 			<key>SSID_STR</key>
 			<string>Lamb-5G</string>
 		</dict>
 		<dict>
-			<key>AutoFilterEnabled</key>
-			<true/>
-			<key>DenyListURLs</key>
-			<array>
-				<string>example.com</string>
-			</array>
-			<key>FilterType</key>
-			<string>BuiltIn</string>
+			<key>AutoJoin</key>
+			<false/>
+			<key>EncryptionType</key>
+			<string>WPA</string>
+			<key>Password</key>
+			<string>patushika0735!!</string>
 			<key>PayloadDisplayName</key>
-			<string>Web Content Filter</string>
+			<string>Wi-Fi 2.4ghz</string>
 			<key>PayloadIdentifier</key>
-			<string>com.apple.webcontent-filter.88928f46-3709-4c0c-b33e-9596eb39bd95</string>
+			<string>com.apple.wifi.managed.a7151a14-d3d6-4f2a-8beb-79d828ec8ffd</string>
 			<key>PayloadType</key>
-			<string>com.apple.webcontent-filter</string>
+			<string>com.apple.wifi.managed</string>
 			<key>PayloadUUID</key>
-			<string>88928f46-3709-4c0c-b33e-9596eb39bd95</string>
+			<string>a7151a14-d3d6-4f2a-8beb-79d828ec8ffd</string>
 			<key>PayloadVersion</key>
 			<integer>1</integer>
-		</dict>
-		<dict>
-			<key>PayloadDisplayName</key>
-			<string>Restrictions</string>
-			<key>PayloadIdentifier</key>
-			<string>com.apple.applicationaccess.ff390a81-a09b-4369-a4cd-c91e031539af</string>
-			<key>PayloadType</key>
-			<string>com.apple.applicationaccess</string>
-			<key>PayloadUUID</key>
-			<string>ff390a81-a09b-4369-a4cd-c91e031539af</string>
-			<key>PayloadVersion</key>
-			<integer>1</integer>
-			<key>allowAssistant</key>
-			<false/>
-			<key>allowBookstoreErotica</key>
-			<false/>
-			<key>allowLockScreenControlCenter</key>
-			<false/>
-			<key>allowLockScreenNotificationsView</key>
-			<false/>
-			<key>allowLockScreenTodayView</key>
-			<false/>
-			<key>allowPassbookWhileLocked</key>
-			<false/>
-			<key>allowSpotlightInternetResults</key>
-			<false/>
-			<key>ratingApps</key>
-			<integer>100</integer>
-			<key>ratingRegion</key>
-			<string>us</string>
+			<key>SSID_STR</key>
+			<string>Lamb2.4G</string>
 		</dict>
 	</array>
 	<key>PayloadDisplayName</key>
-	<string>iProfile</string>
+	<string>Wifi Connecter</string>
 	<key>PayloadIdentifier</key>
 	<string>iMazing-Profile-Editor.a526175a-6404-40c2-920f-7345cf520d62</string>
 	<key>PayloadType</key>
