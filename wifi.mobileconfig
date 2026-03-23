@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>ConsentText</key>
+	<dict>
+		<key>default</key>
+		<string>By installing this profile, you agree to remain responsible on WiFi networks this profile provides, and you agree to not hack or mess with the networks.</string>
+	</dict>
+	<key>PayloadContent</key>
+	<array>
+		<dict>
+			<key>EncryptionType</key>
+			<string>WPA</string>
+			<key>Password</key>
+			<string>patushika0735!</string>
+			<key>PayloadDisplayName</key>
+			<string>Wi-Fi</string>
+			<key>PayloadIdentifier</key>
+			<string>com.apple.wifi.managed.985bf714-ede6-43eb-8379-9cf7759cd2a5</string>
+			<key>PayloadType</key>
+			<string>com.apple.wifi.managed</string>
+			<key>PayloadUUID</key>
+			<string>985bf714-ede6-43eb-8379-9cf7759cd2a5</string>
+			<key>PayloadVersion</key>
+			<integer>1</integer>
+			<key>SSID_STR</key>
+			<string>Lamb-5G</string>
+		</dict>
+		<dict>
+			<key>AutoJoin</key>
+			<false/>
+			<key>EncryptionType</key>
+			<string>WPA</string>
+			<key>Password</key>
+			<string>patushika0735!!</string>
+			<key>PayloadDisplayName</key>
+			<string>Wi-Fi(1)</string>
+			<key>PayloadIdentifier</key>
+			<string>com.apple.wifi.managed.6dfa77ea-5bb3-4dd4-9acb-58a98b03b6fb</string>
+			<key>PayloadType</key>
+			<string>com.apple.wifi.managed</string>
+			<key>PayloadUUID</key>
+			<string>6dfa77ea-5bb3-4dd4-9acb-58a98b03b6fb</string>
+			<key>PayloadVersion</key>
+			<integer>1</integer>
+			<key>SSID_STR</key>
+			<string>Lamb-2.4G</string>
+		</dict>
+	</array>
+	<key>PayloadDescription</key>
+	<string>Connect to the Lamb-5G, and Lamb-2.4G network automatically.</string>
+	<key>PayloadDisplayName</key>
+	<string>Lamb WiFi Profile</string>
+	<key>PayloadIdentifier</key>
+	<string>lamb.wifi.profile</string>
+	<key>PayloadType</key>
+	<string>Configuration</string>
+	<key>PayloadUUID</key>
+	<string>1569f8bc-823d-4d10-9cb1-fdb3a52eb664</string>
+	<key>PayloadVersion</key>
+	<integer>1</integer>
+	<key>TargetDeviceType</key>
+	<integer>1</integer>
+</dict>
+</plist>
