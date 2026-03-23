@@ -1,0 +1,207 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+    <key>PayloadDisplayName</key>
+    <string>MobileConfig tester</string>
+    <key>PayloadDescription</key>
+    <string>Wi-Fi, restrictions, website blocking, and notification control</string>
+    <key>PayloadIdentifier</key>
+    <string>com.ryan.profile</string>
+    <key>PayloadType</key>
+    <string>Configuration</string>
+    <key>PayloadUUID</key>
+    <string>A1B2C3D4-E5F6-7890-ABCD-EF1234567890</string>
+    <key>PayloadVersion</key>
+    <integer>1</integer>
+    <key>PayloadContent</key>
+    <array>
+
+        <!-- ===================== -->
+        <!-- Wi-Fi (WPA2 for 5S)  -->
+        <!-- ===================== -->
+        <dict>
+            <key>PayloadType</key>
+            <string>com.apple.wifi.managed</string>
+            <key>PayloadIdentifier</key>
+            <string>com.ryan.profile.wifi</string>
+            <key>PayloadUUID</key>
+            <string>B2C3D4E5-F6A7-8901-BCDE-F12345678901</string>
+            <key>PayloadVersion</key>
+            <integer>1</integer>
+            <key>PayloadDisplayName</key>
+            <string>Lamb-5G Wi-Fi</string>
+            <key>SSID_STR</key>
+            <string>Lamb-5G</string>
+            <key>EncryptionType</key>
+            <string>WPA</string>
+            <key>Password</key>
+            <string>patushika0735!</string>
+            <key>AutoJoin</key>
+            <true/>
+            <key>Hidden</key>
+            <false/>
+        </dict>
+
+        <!-- ===================== -->
+        <!-- Restrictions          -->
+        <!-- ===================== -->
+        <dict>
+            <key>PayloadType</key>
+            <string>com.apple.applicationaccess</string>
+            <key>PayloadIdentifier</key>
+            <string>com.ryan.profile.restrictions</string>
+            <key>PayloadUUID</key>
+            <string>D4E5F6A7-B8C9-0123-DEFA-234567890123</string>
+            <key>PayloadVersion</key>
+            <integer>1</integer>
+            <key>PayloadDisplayName</key>
+            <string>Restrictions</string>
+
+            <!-- Camera -->
+            <key>allowCamera</key>
+            <false/>
+
+            <!-- FaceTime (goes with camera) -->
+            <key>allowFaceTime</key>
+            <false/>
+
+            <!-- Screenshots & screen recording -->
+            <key>allowScreenShot</key>
+            <false/>
+
+            <!-- Touch ID for unlock -->
+            <key>allowFingerprintForUnlock</key>
+            <false/>
+
+            <!-- AirDrop -->
+            <key>allowAirDrop</key>
+            <false/>
+
+            <!-- iCloud -->
+            <key>allowCloudBackup</key>
+            <false/>
+            <key>allowCloudPhotoLibrary</key>
+            <false/>
+            <key>allowCloudKeychainSync</key>
+            <false/>
+
+            <!-- Game Center -->
+            <key>allowGameCenter</key>
+            <false/>
+            <key>allowGameCenterFriends</key>
+            <false/>
+            <key>allowMultiplayerGaming</key>
+            <false/>
+
+            <!-- In-app purchases -->
+            <key>allowInAppPurchases</key>
+            <false/>
+
+            <!-- Explicit content -->
+            <key>allowExplicitContent</key>
+            <false/>
+
+            <!-- Siri -->
+            <key>allowAssistant</key>
+            <false/>
+
+            <!-- Hotspot / network setting changes -->
+            <key>allowPersonalHotspotModification</key>
+            <false/>
+            <key>allowRoamingSettingsModification</key>
+            <false/>
+            <key>allowCellularPlanModification</key>
+            <false/>
+
+            <!-- Find My Friends changes -->
+            <key>allowFindMyFriendsModification</key>
+            <false/>
+
+        </dict>
+
+        <!-- ===================== -->
+        <!-- Website Blocking      -->
+        <!-- ===================== -->
+        <dict>
+            <key>PayloadType</key>
+            <string>com.apple.contentfilter</string>
+            <key>PayloadIdentifier</key>
+            <string>com.ryan.profile.contentfilter</string>
+            <key>PayloadUUID</key>
+            <string>C3D4E5F6-A7B8-9012-CDEF-123456789012</string>
+            <key>PayloadVersion</key>
+            <integer>1</integer>
+            <key>PayloadDisplayName</key>
+            <string>Website Restrictions</string>
+            <key>FilterType</key>
+            <string>BuiltIn</string>
+            <key>AutoFilterEnabled</key>
+            <true/>
+            <key>FilterBrowsers</key>
+            <true/>
+            <key>BlacklistedURLs</key>
+            <array>
+                <string>example.com</string>
+            </array>
+        </dict>
+
+        <!-- ===================== -->
+        <!-- Notifications         -->
+        <!-- ===================== -->
+        <dict>
+            <key>PayloadType</key>
+            <string>com.apple.notificationsettings</string>
+            <key>PayloadIdentifier</key>
+            <string>com.ryan.profile.notifications</string>
+            <key>PayloadUUID</key>
+            <string>E5F6A7B8-C9D0-1234-EFAB-345678901234</string>
+            <key>PayloadVersion</key>
+            <integer>1</integer>
+            <key>PayloadDisplayName</key>
+            <string>Notification Settings</string>
+            <key>NotificationSettings</key>
+            <array>
+
+                <!-- Safari -->
+                <dict>
+                    <key>BundleIdentifier</key>
+                    <string>com.apple.mobilesafari</string>
+                    <key>NotificationsEnabled</key>
+                    <false/>
+                    <key>ShowInLockScreen</key>
+                    <false/>
+                    <key>ShowInNotificationCenter</key>
+                    <false/>
+                    <key>SoundsEnabled</key>
+                    <false/>
+                    <key>BadgesEnabled</key>
+                    <false/>
+                    <key>AlertType</key>
+                    <integer>0</integer>
+                </dict>
+
+                <!-- Phone -->
+                <dict>
+                    <key>BundleIdentifier</key>
+                    <string>com.apple.mobilephone</string>
+                    <key>NotificationsEnabled</key>
+                    <false/>
+                    <key>ShowInLockScreen</key>
+                    <false/>
+                    <key>ShowInNotificationCenter</key>
+                    <false/>
+                    <key>SoundsEnabled</key>
+                    <false/>
+                    <key>BadgesEnabled</key>
+                    <false/>
+                    <key>AlertType</key>
+                    <integer>0</integer>
+                </dict>
+
+            </array>
+        </dict>
+
+    </array>
+</dict>
+</plist>
